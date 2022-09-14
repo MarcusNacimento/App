@@ -1,0 +1,12 @@
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\bin\Debug\net6.0\App.Aplicattion.deps.json
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\bin\Debug\net6.0\App.Aplicattion.dll
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\bin\Debug\net6.0\App.Aplicattion.pdb
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.AssemblyInfo.cs
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.dll
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\refint\App.Aplicattion.dll
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.pdb
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\ref\App.Aplicattion.dll

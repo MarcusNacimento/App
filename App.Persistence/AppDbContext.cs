@@ -17,5 +17,7 @@ namespace App.Persistence
         }
         /*Entidades que devem ser tabelas no banco de dados*/
         public DbSet<Cidade> Cidades { get; set; }
+
+        public DbSet<Pessoa> Pessoas { get; set; }
     }
 }
