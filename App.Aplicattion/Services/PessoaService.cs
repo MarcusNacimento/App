@@ -13,34 +13,36 @@ namespace App.Aplicattion.Services
     {
         private IRepositoryBase<Pessoa> _repository { get; set; }
 
-        public PessoaService (IRepositoryBase<Pessoa> repository)
+        public PessoaService(IRepositoryBase<Pessoa> repository)
         {
             _repository = repository;
         }
-    
-        public Pessoa BuscaPorNome(string nome )
-        {
-            var retornoPessoa = _repository.Query(pessoa => pessoa.Nome ==nome).FirstOrDefault();
 
-            return retornoPessoa ;
+        public Pessoa BuscaPorNome(string nome)
+        {
+            var retornoPessoa = _repository.Query(pessoa => pessoa.Nome == nome).FirstOrDefault();
+
+            return retornoPessoa;
         }
 
-        public List<Pessoa> ListaPessoas(string nome )
+        public List<Pessoa> ListaPessoas(string? nome)
         {
-            
-           var listaPessoas = _repository.Query
-                (x => x.Nome.Contains(nome)
-               
+
+            var listaCidades = _repository.Query(
+
+                 x => (nome == null || x.Nome.Contains(nome))
+                
 
 
-           ).ToList();
+            ).ToList();
 
-            return listaPessoas;
+            return listaCidades;
         }
 
         public void Remover(Guid id)
         {
             _repository.Delete(id);
+            _repository.SaveChanges();
         }
 
         public void Salvar(Pessoa obj)
@@ -49,12 +51,12 @@ namespace App.Aplicattion.Services
             _repository.SaveChanges();
         }
 
-        Cidade IPessoaService.BuscaPorNome(string nome)
+        Pessoa IPessoaService.BuscaPorNome(string nome)
         {
             throw new NotImplementedException();
         }
 
-        public List<Pessoa> ListaPessoas(string nome, int idade, string telefone, string endereco, string email)
+        public List<Pessoa> ListaPessoas(string nome, int idade)
         {
             throw new NotImplementedException();
         }

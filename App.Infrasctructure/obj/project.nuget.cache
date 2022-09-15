@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a4/H3wYbxppN66vwdeuOhOEfw+MmpSjo/vyCOzTMY2plmcAZQKHbmCCEL+fIKMMAgWPuw8Rd2HdoHmmVKedOHA==",
+  "dgSpecHash": "cbhKqsbZlgsgYEtO4x3kxZqk5BqTlzIGdLW4Fm4ymtgJMd4iYqB9zAnWP6IhzAQFQIGT6ozxIJnKcnWoJoS4VA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

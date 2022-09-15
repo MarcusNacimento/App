@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
         "projectName": "App.Infrasctructure",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

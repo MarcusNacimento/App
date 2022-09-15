@@ -17,11 +17,21 @@ namespace App.Api.Controllers
         }
 
         [HttpPost("BuscaPorNome")]
-        public JsonResult BuscaPorNome(String nome)
+        public JsonResult BuscaPorNome(string? nome)
         {
             var minhaPessoa = _service.BuscaPorNome(nome);
             return Json(minhaPessoa);
         }
+
+
+        [HttpGet("ListaPessoas")]
+        public JsonResult ListaCidades(string? nome)
+        {
+            var listaPessoas = _service.ListaPessoas(nome);
+            return Json(listaPessoas);
+        }
+
+
         [HttpPost("Salvar")]
 
         public JsonResult Salvar(string nome, int idade, string telefone, string endereco, string email)
@@ -35,6 +45,13 @@ namespace App.Api.Controllers
                 Email = email
             };
             _service.Salvar(objPessoa);
+            return Json(true);
+        }
+
+        [HttpDelete("Remover")]
+        public JsonResult Remover(Guid id)
+        {
+            _service.Remover(id);
             return Json(true);
         }
     }

@@ -22,6 +22,16 @@ namespace App.Api.Controllers
             var minhaCidade = _service.BuscaPorCep(cep);
             return Json(minhaCidade);
         }
+
+        [HttpGet("ListaCidades")]
+            public JsonResult ListaCidades(string? cep, string? nome)
+        {
+            var listaCidades = _service.ListaCidades(cep, nome);
+            return Json(listaCidades);
+        }
+
+
+
         [HttpPost("Salvar")]
 
         public JsonResult Salvar(string cep, string nome, string estado)
@@ -33,6 +43,15 @@ namespace App.Api.Controllers
                 Nome = nome
             };
             _service.Salvar(objCidade);
+            return Json(true);
+        }
+        
+        [HttpDelete("Remover")]
+
+        public JsonResult Remover(Guid id)
+        
+        {
+            _service.Remover(id);
             return Json(true);
         }
     }

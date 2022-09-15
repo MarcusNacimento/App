@@ -14,5 +14,6 @@ public class DependencyInjectionConfig
     public static void Inject(IServiceCollection service)
     {
         service.AddTransient<ICidadeService, CidadeService>();
+        service.AddTransient<IPessoaService, PessoaService>();
     }
 }

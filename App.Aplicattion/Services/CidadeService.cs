@@ -25,12 +25,14 @@ namespace App.Aplicattion.Services
             return retornoCidade ;
         }
 
-        public List<Cidade> ListaCidades(string cep, string nome)
+        public List<Cidade> ListaCidades(string? cep, string? nome)
         {
             
-           var listaCidades = _repository.Query
-                (x => x.Cep.Contains(cep)
-                && x.Cep.Contains(nome)
+           var listaCidades = _repository.Query(
+
+                x => (cep == null || x.Cep.Contains(cep))
+                && (nome == null || x.Nome.Contains(nome))
+                
            
            ).ToList();
 
@@ -40,6 +42,7 @@ namespace App.Aplicattion.Services
         public void Remover(Guid id)
         {
             _repository.Delete(id);
+            _repository.SaveChanges();
         }
 
         public void Salvar(Cidade obj)

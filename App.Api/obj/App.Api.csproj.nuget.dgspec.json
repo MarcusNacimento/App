@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Api\\App.Api.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\App.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Api\\App.Api.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\App.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Api\\App.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\App.Api.csproj",
         "projectName": "App.Api",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Api\\App.Api.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Api\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\App.Api.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Aplicattion\\App.Aplicattion.csproj"
+              "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj"
               },
-              "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
+              "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
               },
-              "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Persistence\\App.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Persistence\\App.Persistence.csproj"
+              "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj"
               }
             }
           }
@@ -88,21 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Aplicattion\\App.Aplicattion.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj",
         "projectName": "App.Aplicattion",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Aplicattion\\App.Aplicattion.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Aplicattion\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,8 +116,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj"
+              "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -153,21 +153,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,21 +214,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
         "projectName": "App.Infrasctructure",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Infrasctructure\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -275,21 +275,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Persistence\\App.Persistence.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Persistence\\App.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj",
         "projectName": "App.Persistence",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Persistence\\App.Persistence.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -303,8 +303,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\Documents\\Marcus\\App\\App.Domain\\App.Domain.csproj"
+              "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -356,7 +356,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
