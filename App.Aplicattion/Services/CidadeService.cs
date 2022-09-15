@@ -27,17 +27,25 @@ namespace App.Aplicattion.Services
 
         public List<Cidade> ListaCidades(string cep, string nome)
         {
-            throw new NotImplementedException();
+            
+           var listaCidades = _repository.Query
+                (x => x.Cep.Contains(cep)
+                && x.Cep.Contains(nome)
+           
+           ).ToList();
+
+            return listaCidades;
         }
 
         public void Remover(Guid id)
         {
-            throw new NotImplementedException();
+            _repository.Delete(id);
         }
 
         public void Salvar(Cidade obj)
         {
-            throw new NotImplementedException();
+            _repository.Save(obj);
+            _repository.SaveChanges();
         }
     }
 }

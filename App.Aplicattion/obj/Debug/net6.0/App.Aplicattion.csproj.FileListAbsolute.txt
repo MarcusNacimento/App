@@ -10,3 +10,6 @@ C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App
 C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\refint\App.Aplicattion.dll
 C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.pdb
 C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\ref\App.Aplicattion.dll
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\bin\Debug\net6.0\App.Domain.dll
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\bin\Debug\net6.0\App.Domain.pdb
+C:\Users\Administrador\Documents\Marcus\App\App.Aplicattion\obj\Debug\net6.0\App.Aplicattion.csproj.CopyComplete
