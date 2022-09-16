@@ -244,7 +244,8 @@
       },
       "App.Domain/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.9"
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "App.Domain.dll": {}

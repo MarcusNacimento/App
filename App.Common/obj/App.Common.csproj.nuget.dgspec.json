@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\App\\App.Common\\App.Common.csproj": {}
+    "C:\\Users\\User\\source\\repos\\App\\App.Common\\App.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\App\\App.Common\\App.Common.csproj": {
+    "C:\\Users\\User\\source\\repos\\App\\App.Common\\App.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Common\\App.Common.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Common\\App.Common.csproj",
         "projectName": "App.Common",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Common\\App.Common.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Common\\App.Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Common\\obj\\",
         "projectStyle": "PackageReference",

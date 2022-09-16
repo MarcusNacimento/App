@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj": {}
+    "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj": {
+    "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\App.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

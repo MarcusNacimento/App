@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {}
+    "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+    "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
         "projectName": "App.Infrasctructure",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\obj\\",
         "projectStyle": "PackageReference",

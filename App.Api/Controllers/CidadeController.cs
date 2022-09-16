@@ -1,5 +1,7 @@
-﻿using App.Domain.Entities;
+﻿using App.Domain.DTO;
+using App.Domain.Entities;
 using App.Domain.Interfaces.Application;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.Api.Controllers
@@ -17,39 +19,59 @@ namespace App.Api.Controllers
         }
 
         [HttpPost("BuscaPorCep")]
-        public JsonResult BuscaPorCep(String cep)
+        [AllowAnonymous]
+
+        public JsonResult BuscaPorCep(string cep)
         {
-            var minhaCidade = _service.BuscaPorCep(cep);
-            return Json(minhaCidade);
+            try
+            {
+                var obj = _service.BuscaPorCep(cep);
+                return Json(RetornoApi.Sucesso(obj));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
 
         [HttpGet("ListaCidades")]
-            public JsonResult ListaCidades(string? cep, string? nome)
+        [AllowAnonymous]
+        public JsonResult ListaCidades(string? cep, string? nome)
         {
-            var listaCidades = _service.ListaCidades(cep, nome);
-            return Json(listaCidades);
+            try
+            {
+                var obj = _service.ListaCidades(cep, nome);
+                return Json(RetornoApi.Sucesso(obj));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+
+            }
         }
-
-
 
         [HttpPost("Salvar")]
+        [AllowAnonymous]
 
-        public JsonResult Salvar(string cep, string nome, string estado)
+        public JsonResult Salvar([FromBody] Cidade obj)
         {
-            var objCidade = new Cidade
+            try
             {
-                Cep = cep,
-                Estado = estado,
-                Nome = nome
-            };
-            _service.Salvar(objCidade);
-            return Json(true);
+             
+                _service.Salvar(obj);
+                return Json(RetornoApi.Sucesso(true));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
+
         }
-        
+
         [HttpDelete("Remover")]
 
         public JsonResult Remover(Guid id)
-        
+
         {
             _service.Remover(id);
             return Json(true);

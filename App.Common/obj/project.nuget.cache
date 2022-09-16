@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vRxGYEusKZ+wf1QHdm1xmRaWKjMlI5oMYcA49XsYINQoE2TFIRbQS+ssaq90Rgl5xwDnrmTtTb/X/itosaejjw==",
+  "dgSpecHash": "3AD1I82MWddsZh+r2mryp6z/tlKrBbbKTALNEGX57l/CFPdFAtgvyHn9B4QA5ljVphbmK3xM/c7S+L6I4AmpuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\App\\App.Common\\App.Common.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\App\\App.Common\\App.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

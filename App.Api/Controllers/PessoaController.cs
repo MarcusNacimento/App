@@ -17,7 +17,7 @@ namespace App.Api.Controllers
         }
 
         [HttpPost("BuscaPorNome")]
-        public JsonResult BuscaPorNome(string? nome)
+        public JsonResult BuscaPorNome(string nome)
         {
             var minhaPessoa = _service.BuscaPorNome(nome);
             return Json(minhaPessoa);

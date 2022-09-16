@@ -478,7 +478,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.9"
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/App.Domain.dll": {}
@@ -1146,11 +1147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\App.Api.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Api\\App.Api.csproj",
       "projectName": "App.Api",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\App.Api.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Api\\App.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Api\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\App\\App.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1167,14 +1168,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Aplicattion\\App.Aplicattion.csproj"
+            "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
+            "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\App\\App.Persistence\\App.Persistence.csproj"
+            "C:\\Users\\User\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj"
             }
           }
         }
