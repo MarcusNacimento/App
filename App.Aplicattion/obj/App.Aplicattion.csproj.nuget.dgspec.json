@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {}
+    "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\App.Aplicattion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
+    "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\App.Aplicattion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj",
+        "projectUniqueName": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\App.Aplicattion.csproj",
         "projectName": "App.Aplicattion",
-        "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\obj\\",
+        "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\App.Aplicattion.csproj",
+        "packagesPath": "C:\\Users\\Marcus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj"
+              "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Domain\\App.Domain.csproj"
               }
             }
           }
@@ -65,21 +69,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj": {
+    "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\App.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\App\\App.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Domain\\App.Domain.csproj",
+        "packagesPath": "C:\\Users\\Marcus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -32,3 +32,20 @@ C:\Users\User\source\repos\App\App.Persistence\obj\Debug\net6.0\refint\App.Persi
 C:\Users\User\source\repos\App\App.Persistence\obj\Debug\net6.0\App.Persistence.pdb
 C:\Users\User\source\repos\App\App.Persistence\obj\Debug\net6.0\App.Persistence.genruntimeconfig.cache
 C:\Users\User\source\repos\App\App.Persistence\obj\Debug\net6.0\ref\App.Persistence.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\bin\Debug\net6.0\App.Persistence.deps.json
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\bin\Debug\net6.0\App.Persistence.runtimeconfig.json
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\bin\Debug\net6.0\App.Persistence.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\bin\Debug\net6.0\App.Persistence.pdb
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\bin\Debug\net6.0\App.Domain.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\bin\Debug\net6.0\App.Domain.pdb
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.csproj.AssemblyReference.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.AssemblyInfoInputs.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.AssemblyInfo.cs
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.csproj.CopyComplete
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\refint\App.Persistence.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.pdb
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\App.Persistence.genruntimeconfig.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Persistence\obj\Debug\net6.0\ref\App.Persistence.dll

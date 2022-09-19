@@ -1,5 +1,7 @@
-﻿using App.Domain.Entities;
+﻿using App.Domain.DTO;
+using App.Domain.Entities;
 using App.Domain.Interfaces.Application;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.Api.Controllers
@@ -17,35 +19,53 @@ namespace App.Api.Controllers
         }
 
         [HttpPost("BuscaPorNome")]
+        [AllowAnonymous]
         public JsonResult BuscaPorNome(string nome)
         {
-            var minhaPessoa = _service.BuscaPorNome(nome);
-            return Json(minhaPessoa);
+            try
+
+            {
+                var obj = _service.BuscaPorNome(nome);
+                return Json(RetornoApi.Sucesso(obj));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
-
-
         [HttpGet("ListaPessoas")]
+        [AllowAnonymous]
+
         public JsonResult ListaCidades(string? nome)
         {
-            var listaPessoas = _service.ListaPessoas(nome);
-            return Json(listaPessoas);
+            try
+            {
+                var obj = _service.ListaPessoas(nome);
+                return Json(RetornoApi.Sucesso(obj));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
 
 
         [HttpPost("Salvar")]
+        [AllowAnonymous]
 
-        public JsonResult Salvar(string nome, int idade, string telefone, string endereco, string email)
+        public JsonResult Salvar([FromBody] Pessoa obj)
         {
-            var objPessoa = new Pessoa
+            try
             {
-                Nome = nome,
-                Idade = idade,
-                Telefone = telefone,
-                Endereco = endereco,
-                Email = email
-            };
-            _service.Salvar(objPessoa);
-            return Json(true);
+
+                _service.Salvar(obj);
+                return Json(RetornoApi.Sucesso(true));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
+
         }
 
         [HttpDelete("Remover")]

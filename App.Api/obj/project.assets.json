@@ -312,7 +312,7 @@
           }
         }
       },
-      "Npgsql/6.0.6": {
+      "Npgsql/6.0.7": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -328,19 +328,23 @@
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.6": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Abstractions": "6.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
-          "Npgsql": "6.0.6"
+          "Npgsql": "6.0.7"
         },
         "compile": {
-          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore/6.2.3": {
@@ -918,10 +922,10 @@
         "newtonsoft.json.encryption.nuspec"
       ]
     },
-    "Npgsql/6.0.6": {
-      "sha512": "IIwnoJp0sFkhAydT/KKe/0NhlJKhYPIrXSE95AuU/2dqHNI9alxvjClJSGL+QE8NGqq1SFn+NenxVtm/JYsrJg==",
+    "Npgsql/6.0.7": {
+      "sha512": "HhD5q/VUJY++tCzc0eCrhtsxmUdP7NxNhUMOdYW6sqpC6NRlFLvUDf5JyRj0gOGkXe3Tn49toaisgvLqlzQ2JQ==",
       "type": "package",
-      "path": "npgsql/6.0.6",
+      "path": "npgsql/6.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -936,21 +940,22 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.6.0.6.nupkg.sha512",
+        "npgsql.6.0.7.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.6": {
-      "sha512": "e1RVE6xtKDsWcCvBpXnbbHfY2p2/9l6cO/FpXvP3QqvRSCcWoabC22sr8wdWPRxex0a128Pq678Jo5XiIMcrxw==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.7": {
+      "sha512": "kqwX2V9Znw/QjLDL6SyYEHiy9toMuqMTyCJ4ebQu65FpV8pElYKpOlBbxoyr6YNgqieXEMmpnE0TIoTKsVdeLw==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/6.0.6",
+      "path": "npgsql.entityframeworkcore.postgresql/6.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
+        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
+        "npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
@@ -1138,23 +1143,29 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
       "Newtonsoft.Json >= 13.0.1",
       "Newtonsoft.Json.Encryption >= 2.2.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.7",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Marcus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\App\\App.Api\\App.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Api\\App.Api.csproj",
       "projectName": "App.Api",
-      "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Api\\App.Api.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\App\\App.Api\\obj\\",
+      "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Api\\App.Api.csproj",
+      "packagesPath": "C:\\Users\\Marcus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marcus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1168,14 +1179,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Aplicattion\\App.Aplicattion.csproj"
+            "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\App.Aplicattion.csproj": {
+              "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Aplicattion\\App.Aplicattion.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Infrasctructure\\App.Infrasctructure.csproj"
+            "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Infrasctructure\\App.Infrasctructure.csproj": {
+              "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Infrasctructure\\App.Infrasctructure.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj"
+            "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Persistence\\App.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Marcus\\Desktop\\Cursos\\Curso C#\\Cod\\App.Persistence\\App.Persistence.csproj"
             }
           }
         }
@@ -1204,6 +1215,10 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[6.0.7, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
@@ -1228,7 +1243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

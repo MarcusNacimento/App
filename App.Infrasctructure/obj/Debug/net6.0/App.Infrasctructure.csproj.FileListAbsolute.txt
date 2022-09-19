@@ -22,3 +22,15 @@ C:\Users\User\source\repos\App\App.Infrasctructure\obj\Debug\net6.0\App.Infrasct
 C:\Users\User\source\repos\App\App.Infrasctructure\obj\Debug\net6.0\refint\App.Infrasctructure.dll
 C:\Users\User\source\repos\App\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.pdb
 C:\Users\User\source\repos\App\App.Infrasctructure\obj\Debug\net6.0\ref\App.Infrasctructure.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\bin\Debug\net6.0\App.Infrasctructure.deps.json
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\bin\Debug\net6.0\App.Infrasctructure.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\bin\Debug\net6.0\App.Infrasctructure.pdb
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.csproj.AssemblyReference.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.AssemblyInfoInputs.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.AssemblyInfo.cs
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\refint\App.Infrasctructure.dll
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\App.Infrasctructure.pdb
+C:\Users\Marcus\Desktop\Cursos\Curso C#\Cod\App.Infrasctructure\obj\Debug\net6.0\ref\App.Infrasctructure.dll
